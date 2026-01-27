@@ -1087,6 +1087,22 @@
         "special": "energy"
       },
       "story": "Your dog rested today. No visible changes."
+    },
+    {
+      "timestamp": "2026-01-27T00:57:28.629489",
+      "dna_hash": "f1de3a0359144335",
+      "generation": 1,
+      "mutation_count": 19,
+      "rarity_score": 20.0,
+      "traits": {
+        "body_color": "gray",
+        "face_expression": "mischievous",
+        "accessory": "monocle",
+        "pattern": "solid",
+        "background": "blue_sky",
+        "special": "aura"
+      },
+      "story": "Your dog evolved! Changes: special: energy \u2192 aura"
     }
   ]
 }
