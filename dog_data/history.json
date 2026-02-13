@@ -1407,6 +1407,22 @@
         "special": "none"
       },
       "story": "Your dog evolved! Changes: background: white \u2192 mountains"
+    },
+    {
+      "timestamp": "2026-02-13T04:21:50.655214",
+      "dna_hash": "7076af8685f82503",
+      "generation": 2,
+      "mutation_count": 3,
+      "rarity_score": 18.333333333333332,
+      "traits": {
+        "body_color": "purple",
+        "face_expression": "neutral",
+        "accessory": "none",
+        "pattern": "spots",
+        "background": "mountains",
+        "special": "none"
+      },
+      "story": "Your dog rested today. No visible changes."
     }
   ]
 }
