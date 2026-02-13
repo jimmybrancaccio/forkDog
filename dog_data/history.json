@@ -1391,6 +1391,22 @@
         "special": "none"
       },
       "story": "\ud83c\udf89 Your dog was born!"
+    },
+    {
+      "timestamp": "2026-02-13T00:33:33.367422",
+      "dna_hash": "7076af8685f82503",
+      "generation": 2,
+      "mutation_count": 1,
+      "rarity_score": 18.333333333333332,
+      "traits": {
+        "body_color": "purple",
+        "face_expression": "neutral",
+        "accessory": "none",
+        "pattern": "spots",
+        "background": "mountains",
+        "special": "none"
+      },
+      "story": "Your dog evolved! Changes: background: white \u2192 mountains"
     }
   ]
 }
