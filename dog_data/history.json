@@ -1423,6 +1423,22 @@
         "special": "none"
       },
       "story": "Your dog rested today. No visible changes."
+    },
+    {
+      "timestamp": "2026-02-13T04:30:44.373412",
+      "dna_hash": "0c9f2f580b61efa1",
+      "generation": 2,
+      "mutation_count": 4,
+      "rarity_score": 20.0,
+      "traits": {
+        "body_color": "purple",
+        "face_expression": "neutral",
+        "accessory": "bandana",
+        "pattern": "spots",
+        "background": "mountains",
+        "special": "none"
+      },
+      "story": "\ud83c\udf1f Woof-tastic Update! \ud83c\udf1f Your dog, once a humble furball of joy, has leveled up in charm and swagger! \ud83c\udf89 After a mysterious wind blew through the park, they now sport a dashing *red bandana*, instantly gaining +10 charisma and the power to fetch compliments from strangers. Keep those tail wags going strong! \ud83d\udc3e\ud83e\uddb4"
     }
   ]
 }
