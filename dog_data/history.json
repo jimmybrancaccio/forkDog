@@ -1439,6 +1439,22 @@
         "special": "none"
       },
       "story": "\ud83c\udf1f Woof-tastic Update! \ud83c\udf1f Your dog, once a humble furball of joy, has leveled up in charm and swagger! \ud83c\udf89 After a mysterious wind blew through the park, they now sport a dashing *red bandana*, instantly gaining +10 charisma and the power to fetch compliments from strangers. Keep those tail wags going strong! \ud83d\udc3e\ud83e\uddb4"
+    },
+    {
+      "timestamp": "2026-02-14T00:31:16.605576",
+      "dna_hash": "e2187f9a5b58fa99",
+      "generation": 2,
+      "mutation_count": 6,
+      "rarity_score": 20.0,
+      "traits": {
+        "body_color": "purple",
+        "face_expression": "curious",
+        "accessory": "bandana",
+        "pattern": "spots",
+        "background": "sunset",
+        "special": "none"
+      },
+      "story": "\ud83c\udf1fWOOF-TASTIC NEWS!\ud83c\udf1f Your adventurous pup has evolved! \ud83d\udc36 Their face switched from neutral to *curious*, as they\u2019ve discovered the secret to sunsets! \ud83c\udf04 Goodbye chilly mountains \u2013 hello vibrant skies as your furry explorer now wanders through magical horizons dripping in orange and pink! \u2728 Tail wagging at maximum joy! \ud83c\udf89"
     }
   ]
 }
