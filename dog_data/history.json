@@ -1551,6 +1551,22 @@
         "special": "none"
       },
       "story": "\"Woof-tastic news! Your pup has evolved from a mischievous rascal with a knack for stealing socks to a curious explorer, sniffing out secrets of the sunset-soaked horizon! Watch as they tilt their head in wonder, ready to uncover the world's hidden treasures\u2014what's next, pawhaps solving the mysteries of the universe?\""
+    },
+    {
+      "timestamp": "2026-02-21T00:30:07.855441",
+      "dna_hash": "d8648190ffe5d2ff",
+      "generation": 2,
+      "mutation_count": 15,
+      "rarity_score": 21.666666666666668,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "curious",
+        "accessory": "monocle",
+        "pattern": "stripes",
+        "background": "forest",
+        "special": "none"
+      },
+      "story": "\"Woof-tastic news! Your pup has evolved from a sunset chaser into a forest explorer! Their tail now glows faintly like moonlight as they sniff out magical mushrooms\u2014who knows what adventure they'll dig up next? \ud83c\udf32\u2728\""
     }
   ]
 }
