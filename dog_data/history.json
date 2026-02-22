@@ -1567,6 +1567,22 @@
         "special": "none"
       },
       "story": "\"Woof-tastic news! Your pup has evolved from a sunset chaser into a forest explorer! Their tail now glows faintly like moonlight as they sniff out magical mushrooms\u2014who knows what adventure they'll dig up next? \ud83c\udf32\u2728\""
+    },
+    {
+      "timestamp": "2026-02-22T00:31:20.857501",
+      "dna_hash": "7c0df2a88dbec9ac",
+      "generation": 2,
+      "mutation_count": 17,
+      "rarity_score": 23.333333333333332,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "wise",
+        "accessory": "golden_crown",
+        "pattern": "stripes",
+        "background": "forest",
+        "special": "none"
+      },
+      "story": "\"Woof! Your pup has undergone a pawsitively regal transformation! Once a curious explorer squinting through their monocle, they\u2019ve evolved into a wise ruler donning a golden crown, ready to lead the pack with dignity and tail-wagging wisdom. What a fetching glow-up!\""
     }
   ]
 }
