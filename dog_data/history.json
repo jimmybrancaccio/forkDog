@@ -1583,6 +1583,22 @@
         "special": "none"
       },
       "story": "\"Woof! Your pup has undergone a pawsitively regal transformation! Once a curious explorer squinting through their monocle, they\u2019ve evolved into a wise ruler donning a golden crown, ready to lead the pack with dignity and tail-wagging wisdom. What a fetching glow-up!\""
+    },
+    {
+      "timestamp": "2026-02-23T00:31:55.273621",
+      "dna_hash": "a4871aa1cb515996",
+      "generation": 2,
+      "mutation_count": 18,
+      "rarity_score": 25.0,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "wise",
+        "accessory": "golden_crown",
+        "pattern": "stripes",
+        "background": "forest",
+        "special": "sparkles"
+      },
+      "story": "\u2728 Woof-tastic news! Your lovable pup, Buster, has evolved from a regular furball to a dazzling sparkle-dog! Now, whenever he wags his tail, tiny glitter stars burst into the air\u2014prepare for walks that double as magical parades! \ud83d\udc36\ud83d\udc96\u2728"
     }
   ]
 }
