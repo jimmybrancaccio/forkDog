@@ -1599,6 +1599,22 @@
         "special": "sparkles"
       },
       "story": "\u2728 Woof-tastic news! Your lovable pup, Buster, has evolved from a regular furball to a dazzling sparkle-dog! Now, whenever he wags his tail, tiny glitter stars burst into the air\u2014prepare for walks that double as magical parades! \ud83d\udc36\ud83d\udc96\u2728"
+    },
+    {
+      "timestamp": "2026-02-24T00:29:58.558177",
+      "dna_hash": "9504323e3badfe0a",
+      "generation": 2,
+      "mutation_count": 19,
+      "rarity_score": 25.0,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "wise",
+        "accessory": "golden_crown",
+        "pattern": "stripes",
+        "background": "sunset",
+        "special": "sparkles"
+      },
+      "story": "\"Woof-tastic news! Your pup, Barkley, has evolved from a frolicking forest furball to a dazzling sunset dreamer! Now with a golden glow and leaves that twirl around their tail, they're *the* bark of the horizon\u2014ready to light up your adventures!\" \ud83c\udf05\ud83d\udc3e\u2728"
     }
   ]
 }
