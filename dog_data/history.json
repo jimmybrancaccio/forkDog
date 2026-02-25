@@ -1615,6 +1615,22 @@
         "special": "sparkles"
       },
       "story": "\"Woof-tastic news! Your pup, Barkley, has evolved from a frolicking forest furball to a dazzling sunset dreamer! Now with a golden glow and leaves that twirl around their tail, they're *the* bark of the horizon\u2014ready to light up your adventures!\" \ud83c\udf05\ud83d\udc3e\u2728"
+    },
+    {
+      "timestamp": "2026-02-25T00:33:11.950433",
+      "dna_hash": "a4871aa1cb515996",
+      "generation": 2,
+      "mutation_count": 20,
+      "rarity_score": 25.0,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "wise",
+        "accessory": "golden_crown",
+        "pattern": "stripes",
+        "background": "forest",
+        "special": "sparkles"
+      },
+      "story": "*Woof-tastic update! \ud83c\udf89 Yesterday, your furry friend Sparkle evolved from a sunset-chasing dreamer to a forest-savvy explorer! Now equipped with moss-sniffing skills and squirrel diplomacy (level 3 \ud83d\udc3f\ufe0f), Sparkle can summon enchanted acorns. Adventure awaits!* \ud83c\udf32\u2728"
     }
   ]
 }
