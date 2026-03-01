@@ -1679,6 +1679,22 @@
         "special": "glow"
       },
       "story": "\u2728 Woof-tastic news! Your adventurous pup has evolved from a Sparkle Pup to a Glow Hound\u2014now radiating a magical golden glow that lights up even the darkest fetch quests. Keep your glowing good boy happy, and who knows? He might unlock *Galaxy Tail Wag* next! \ud83c\udf1f\ud83d\udc3e"
+    },
+    {
+      "timestamp": "2026-03-01T00:34:28.118851",
+      "dna_hash": "3b9f45c8d83ddae2",
+      "generation": 2,
+      "mutation_count": 24,
+      "rarity_score": 25.0,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "zen",
+        "accessory": "golden_crown",
+        "pattern": "gradient",
+        "background": "sunset",
+        "special": "glow"
+      },
+      "story": "\ud83c\udf89 Evolution Alert! \ud83c\udf89 Your stellar pup, Stripey, just had a fabulous makeover! \ud83d\udc3e The stripes have *magically melted* into a dazzling gradient\u2014like a sunset dipped in glitter. \ud83c\udf08 Now your stylish doggo can hypnotize squirrels AND look like an art exhibit! \ud83d\ude80\u2728 Keep the belly rubs coming, evolution champ! \ud83d\udc36"
     }
   ]
 }
