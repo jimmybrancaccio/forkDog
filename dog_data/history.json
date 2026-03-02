@@ -1695,6 +1695,22 @@
         "special": "glow"
       },
       "story": "\ud83c\udf89 Evolution Alert! \ud83c\udf89 Your stellar pup, Stripey, just had a fabulous makeover! \ud83d\udc3e The stripes have *magically melted* into a dazzling gradient\u2014like a sunset dipped in glitter. \ud83c\udf08 Now your stylish doggo can hypnotize squirrels AND look like an art exhibit! \ud83d\ude80\u2728 Keep the belly rubs coming, evolution champ! \ud83d\udc36"
+    },
+    {
+      "timestamp": "2026-03-02T00:30:42.154559",
+      "dna_hash": "80a417049b43d8ee",
+      "generation": 2,
+      "mutation_count": 25,
+      "rarity_score": 25.0,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "zen",
+        "accessory": "golden_crown",
+        "pattern": "gradient",
+        "background": "forest",
+        "special": "glow"
+      },
+      "story": "\ud83c\udf1f Evolution Alert! \ud83c\udf1f  \n\nYour pupper, once a happy-go-lucky sunset chaser, has *evolved*! \ud83d\udc3e\u2728 Now a barky botanist, they've sprouted a *forest-trotting tail upgrade* and gained +10 in \"Sniffing Rare Mushrooms.\" Beware: they might bring you a twig... or a tiny, magical tree. \ud83c\udf33\ud83d\udd2e"
     }
   ]
 }
