@@ -1711,6 +1711,22 @@
         "special": "glow"
       },
       "story": "\ud83c\udf1f Evolution Alert! \ud83c\udf1f  \n\nYour pupper, once a happy-go-lucky sunset chaser, has *evolved*! \ud83d\udc3e\u2728 Now a barky botanist, they've sprouted a *forest-trotting tail upgrade* and gained +10 in \"Sniffing Rare Mushrooms.\" Beware: they might bring you a twig... or a tiny, magical tree. \ud83c\udf33\ud83d\udd2e"
+    },
+    {
+      "timestamp": "2026-03-03T00:31:56.333704",
+      "dna_hash": "cbce77252faf6dc2",
+      "generation": 2,
+      "mutation_count": 26,
+      "rarity_score": 25.0,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "zen",
+        "accessory": "golden_crown",
+        "pattern": "gradient",
+        "background": "forest",
+        "special": "sparkles"
+      },
+      "story": "\ud83c\udf1f Pupdate Alert! \ud83c\udf1f Your pup, Barkleton, has evolved! His glow has transformed into *SPARKLES*! \u2728 Now, every tail wag leaves a trail of glitter, and his bark sounds like a tiny choir singing. Who\u2019s the fanciest good boy in town? You guessed it\u2014IT\u2019S SPARKLY BARKLETON! \ud83c\udf89\ud83d\udc3e"
     }
   ]
 }
