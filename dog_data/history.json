@@ -1775,6 +1775,22 @@
         "special": "glow"
       },
       "story": "\u2728 Whoa, pupper upgrade alert! \u2728 Your dog has evolved from Sparkly Sprout to Glorious Glowbean! Not only does it radiate a warm, magical light now, but it also attracts fireflies who dance around it like a tiny, glowing parade. \ud83c\udf1f Keep up those belly rubs\u2014they\u2019re fueling the radiance! \ud83d\udc3e"
+    },
+    {
+      "timestamp": "2026-03-07T00:30:08.671588",
+      "dna_hash": "d1f96469c3afccbc",
+      "generation": 2,
+      "mutation_count": 31,
+      "rarity_score": 40.0,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "enlightened",
+        "accessory": "golden_crown",
+        "pattern": "swirls",
+        "background": "aurora",
+        "special": "glow"
+      },
+      "story": "\"Woof-tastic news! Your playful pup, Barkletron, has evolved from chasing sunsets to howling at auroras! Their tail now glows faintly with cosmic sparkles\u2014perfect for intergalactic fetch games!\" \ud83c\udf0c\ud83d\udc3e\u2728"
     }
   ]
 }
