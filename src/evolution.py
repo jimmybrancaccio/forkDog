@@ -12,6 +12,8 @@ import json
 import abc
 from typing import Optional, Dict, Any, List
 from src.genetics import DogDNA, GeneticsEngine, TraitCategory
+from pathlib import Path
+import time
 
 
 class AIProvider(abc.ABC):
@@ -116,6 +118,18 @@ class EvolutionAgent:
 
         # Create prompt
         prompt = self._create_evolution_prompt(current_traits, days_passed, dna.generation)
+
+        # DEBUG: Log the evolution prompt
+        print("DEBUG: evolution prompt preview:")
+        print(prompt[:1000])  # show first 1000 chars
+
+        try:
+            Path("dog_data").mkdir(exist_ok=True)
+            fname = Path("dog_data") / f"evolution_prompt_{int(time.time())}.txt"
+            fname.write_text(prompt)
+            print(f"DEBUG: evolution prompt saved to: {fname}")
+        except Exception as e:
+            print(f"DEBUG: failed to save prompt: {e}")
 
         try:
             # Call AI
