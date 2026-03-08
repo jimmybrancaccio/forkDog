@@ -9,7 +9,7 @@ on:
       - 'web/**'
       - 'dog_data/**'
       - '.github/workflows/deploy-pages.yml'
-  
+
   # Also trigger after daily evolution completes
   workflow_run:
     workflows: ["Daily Evolution", "Initialize New Dog"]
@@ -17,7 +17,7 @@ on:
       - completed
     branches:
       - main
-  
+
   # Allow manual trigger
   workflow_dispatch:
 
@@ -43,14 +43,14 @@ jobs:
           # Get latest changes (important after workflow_run trigger)
           ref: ${{ github.ref }}
           fetch-depth: 0
-      
+
       # Re-fetch to get the latest commit after evolution workflows
       - name: Get latest changes
         run: |
           git fetch origin main
           git checkout main
           git pull origin main
-      
+
       - name: Copy dog data to web
         run: |
           # Copy dog_data to web folder so it's accessible
@@ -62,9 +62,9 @@ jobs:
         uses: actions/configure-pages@v4
         with:
           enablement: true
-      
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: 'web'
 
@@ -74,12 +74,12 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      
+
       - name: Show deployment URL
         run: |
           echo "🌐 Deployed to: ${{ steps.deployment.outputs.page_url }}"
