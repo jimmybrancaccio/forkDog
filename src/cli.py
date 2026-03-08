@@ -123,7 +123,6 @@ def evolve(ai, strength):
     console.print(f"Mutations so far: {dna.mutation_count}")
 
     # Evolve
-    # Evolve
     if ai:
         provider = os.getenv("AI_PROVIDER", "github")
         console.print(f"\n[cyan]🤖 Using AI-powered evolution ({provider})...[/cyan]")
