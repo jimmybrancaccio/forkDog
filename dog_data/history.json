@@ -1823,6 +1823,22 @@
         "special": "glow"
       },
       "story": "Your dog rested today. No visible changes."
+    },
+    {
+      "timestamp": "2026-03-08T01:14:16.873724",
+      "dna_hash": "d2d9ed8bf93134c3",
+      "generation": 2,
+      "mutation_count": 33,
+      "rarity_score": 40.0,
+      "traits": {
+        "body_color": "golden",
+        "face_expression": "enlightened",
+        "accessory": "golden_crown",
+        "pattern": "swirls",
+        "background": "multiverse",
+        "special": "aura"
+      },
+      "story": ""
     }
   ]
 }
