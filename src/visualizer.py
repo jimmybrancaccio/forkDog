@@ -3,6 +3,9 @@ ForkDog Visualizer - Dog Edition
 """
 
 import math
+import json
+import time
+from pathlib import Path
 from typing import Dict, List
 from src.genetics import DogDNA, TraitCategory, Rarity
 
@@ -46,6 +49,17 @@ class DogVisualizer:
             cls._generate_face(traits["expression"], width, height),
             "</svg>",
         ]
+
+        print("DEBUG: visualizer.traits =", traits)
+        # Save full traits for CI inspection
+        try:
+            Path("dog_data").mkdir(exist_ok=True)
+            fname = Path("dog_data") / f"traits_debug_{int(time.time())}.json"
+            fname.write_text(json.dumps(traits, indent=2))
+            print(f"DEBUG: traits saved to {fname}")
+        except Exception as e:
+            print(f"DEBUG: failed to save traits: {e}")
+
         return "\n".join(svg_parts)
 
     @classmethod
@@ -72,10 +86,10 @@ class DogVisualizer:
         # Floppy Ears
         parts.append(f'<ellipse cx="{cx-70}" cy="{cy-40}" rx="30" ry="60" fill="{c["main"]}" transform="rotate(20 {cx-70} {cy-40})" filter="url(#shadow)"/>')
         parts.append(f'<ellipse cx="{cx+70}" cy="{cy-40}" rx="30" ry="60" fill="{c["main"]}" transform="rotate(-20 {cx+70} {cy-40})" filter="url(#shadow)"/>')
-        
+
         # Head
         parts.append(f'<rect x="{cx-80}" y="{cy-80}" width="160" height="150" rx="40" fill="{c["main"]}" filter="url(#shadow)"/>')
-        
+
         # Snout area
         parts.append(f'<ellipse cx="{cx}" cy="{cy+20}" rx="50" ry="35" fill="{c["highlight"]}" opacity="0.6"/>')
 
@@ -85,23 +99,23 @@ class DogVisualizer:
     def _generate_face(cls, expr: str, w: int, h: int) -> str:
         cx, cy = w // 2, h // 2
         parts = []
-        
+
         # Eyes (Round for dog)
         parts.append(f'<circle cx="{cx-35}" cy="{cy-20}" r="15" fill="#FFF"/>')
         parts.append(f'<circle cx="{cx+35}" cy="{cy-20}" r="15" fill="#FFF"/>')
         parts.append(f'<circle cx="{cx-35}" cy="{cy-20}" r="8" fill="#000"/>')
         parts.append(f'<circle cx="{cx+35}" cy="{cy-20}" r="8" fill="#000"/>')
-        
+
         # Big nose
         parts.append(f'<ellipse cx="{cx}" cy="{cy+10}" rx="20" ry="15" fill="#000"/>')
         parts.append(f'<ellipse cx="{cx-5}" cy="{cy+5}" rx="5" ry="3" fill="#FFF" opacity="0.5"/>')
-        
+
         # Tongue out?
         if expr in ["happy", "excited"]:
              parts.append(f'<path d="M{cx-10} {cy+30} Q{cx} {cy+60} {cx+10} {cy+30}" fill="#FF69B4" stroke="#D14785" stroke-width="2"/>')
         else:
             parts.append(f'<path d="M{cx-15} {cy+30} Q{cx} {cy+45} {cx+15} {cy+30}" stroke="#000" stroke-width="3" fill="none"/>')
-            
+
         return "\n".join(parts)
 
     @classmethod
