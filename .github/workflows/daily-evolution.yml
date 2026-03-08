@@ -20,22 +20,22 @@ permissions:
 jobs:
   evolve:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-      
+
       - name: Check if dog exists
         id: check_dog
         run: |
@@ -44,7 +44,7 @@ jobs:
           else
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: Initialize dog (first time)
         if: steps.check_dog.outputs.exists == 'false'
         env:
@@ -53,10 +53,11 @@ jobs:
         run: |
           echo "🐵 First time setup - initializing dog..."
           python src/cli.py init --from-fork
-      
+
       - name: Evolve dog
         if: steps.check_dog.outputs.exists == 'true'
         env:
+          AI_PROVIDER: "${{ vars.AI_PROVIDER }}"
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -67,26 +68,26 @@ jobs:
           else
             python src/cli.py evolve --strength 0.1
           fi
-      
+
       - name: Update README
         run: |
           echo "📝 Updating README..."
           python src/cli.py update-readme
-      
+
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
+
           git add dog_data/ README.md
-          
+
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "🐵 Daily evolution: $(date +%Y-%m-%d)"
             git push
           fi
-      
+
       - name: Show dog stats
         run: |
           echo "📊 Current dog stats:"
