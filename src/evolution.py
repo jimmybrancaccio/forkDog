@@ -18,7 +18,7 @@ class AIProvider(abc.ABC):
     """Abstract base class for AI providers"""
     
     @abc.abstractmethod
-    def generate_response(self, prompt: str, max_tokens: int = 1024) -> str:
+    def generate_response(self, prompt: str, max_completion_tokens: int = 1024) -> str:
         """Generate text response from the model"""
         pass
     
@@ -36,10 +36,10 @@ class ClaudeProvider(AIProvider):
         self.client = Anthropic(api_key=api_key)
         self.model = "claude-3-5-sonnet-20241022"
     
-    def generate_response(self, prompt: str, max_tokens: int = 1024) -> str:
+    def generate_response(self, prompt: str, max_completion_tokens: int = 1024) -> str:
         response = self.client.messages.create(
             model=self.model,
-            max_tokens=max_tokens,
+            max_completion_tokens=max__completion_tokens,
             messages=[{"role": "user", "content": prompt}]
         )
         return response.content[0].text
@@ -59,11 +59,11 @@ class GitHubProvider(AIProvider):
         )
         self.model = model
         
-    def generate_response(self, prompt: str, max_tokens: int = 1024) -> str:
+    def generate_response(self, prompt: str, max_completion_tokens: int = 1024) -> str:
         response = self.client.chat.completions.create(
             messages=[{"role": "user", "content": prompt}],
             model=self.model,
-            max_tokens=max_tokens,
+            max_completion_tokens=max_completion_tokens,
         )
         return response.choices[0].message.content
 
@@ -257,7 +257,7 @@ Changes that occurred:
 Make it fun and engaging, like a Tamagotchi update message."""
         
         try:
-            return self.provider.generate_response(prompt, max_tokens=256).strip()
+            return self.provider.generate_response(prompt, max_completion_tokens=256).strip()
         except:
             return f"Your dog evolved! Changes: {', '.join(changes)}"
 
