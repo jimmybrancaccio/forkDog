@@ -51,7 +51,7 @@ class ClaudeProvider(AIProvider):
 class GitHubProvider(AIProvider):
     """GitHub Models provider (via OpenAI-compatible endpoint)"""
     
-    def __init__(self, token: str, model: str = "gpt-4o"):
+    def __init__(self, token: str, model: str = "gpt-5-mini"):
         from openai import OpenAI
         self.client = OpenAI(
             base_url="https://models.inference.ai.azure.com",
@@ -93,7 +93,7 @@ class EvolutionAgent:
                 raise ValueError("GITHUB_TOKEN not found (required for GitHub Models)")
             
             # Allow model selection via env env
-            model = os.getenv("GITHUB_MODEL", "gpt-4o")
+            model = os.getenv("GITHUB_MODEL", "gpt-5-mini")
             return GitHubProvider(token, model)
             
         else:
