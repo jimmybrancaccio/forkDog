@@ -50,7 +50,7 @@
     <clipPath id="head-clip"><ellipse cx="200" cy="200" rx="110" ry="115"/></clipPath>
 </defs>
 <rect width="400" height="400" fill="url(#multiverse-gradient)"/>
-<circle cx="200" cy="200" r="165" fill="none" stroke="#00FFFF" stroke-width="3" opacity="0.25" stroke-dasharray="20,10"/>
+<circle cx="200" cy="200" r="180" fill="url(#multiverse-gradient)" opacity="0.15"/>
 <ellipse cx="130" cy="160" rx="30" ry="60" fill="#FFD700" transform="rotate(20 130 160)" filter="url(#shadow)"/>
 <ellipse cx="270" cy="160" rx="30" ry="60" fill="#FFD700" transform="rotate(-20 270 160)" filter="url(#shadow)"/>
 <rect x="120" y="120" width="160" height="150" rx="40" fill="#FFD700" filter="url(#shadow)"/>
@@ -63,7 +63,7 @@
 <ellipse cx="195" cy="205" rx="5" ry="3" fill="#FFF" opacity="0.5"/>
 <path d="M185 230 Q200 245 215 230" stroke="#000" stroke-width="3" fill="none"/>
 <polygon points="155,70 170,35 190,60 210,35 230,60 245,35 245,85 155,85" fill="#FFD700" stroke="#B8860B" stroke-width="3"/><circle cx="200" cy="45" r="8" fill="#E74C3C"/><circle cx="175" cy="55" r="5" fill="#3498DB"/><circle cx="225" cy="55" r="5" fill="#2ECC71"/>
-
+<circle cx="200" cy="200" r="145" fill="none" stroke="#FFD700" stroke-width="4" opacity="0.4" filter="url(#glow)"/>
 <g transform="translate(325, 15)">
             <rect width="65" height="22" rx="4" fill="#4ECDC4" opacity="0.9"/>
             <text x="32" y="15" font-size="8" fill="#FFF" text-anchor="middle" font-family="sans-serif" font-weight="bold">UNCOMMON</text>
