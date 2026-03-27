@@ -51,7 +51,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          echo "🐵 First time setup - initializing dog..."
+          echo "🐶 First time setup - initializing dog..."
           python src/cli.py init --from-fork
 
       - name: Evolve dog
@@ -84,7 +84,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🐵 Daily evolution: $(date +%Y-%m-%d)"
+            git commit -m "🐶 Daily evolution: $(date +%Y-%m-%d)"
             git push
           fi
 
