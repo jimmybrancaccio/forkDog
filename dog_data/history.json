@@ -3935,6 +3935,22 @@
         "special": "transcendent"
       },
       "story": "# \ud83d\udc3e Tamagotchi Update: Cosmic Pup Evolution!\n\nYour cosmic dust pup swirled and spun through the galaxy, collecting stardust in their fluffy tail and moon rocks in their cheeks \u2014 until *POOF!* \ud83c\udf0c They collapsed into something far more mysterious and magnificent: a **Void Doggo**, a sleek shadow-pup who can fetch black holes and howl at dimensions you can't even see! Don't worry if they seem a little *empty* sometimes \u2014 that's just because they contain entire universes in their belly! \ud83d\udda4\u2728"
+    },
+    {
+      "timestamp": "2026-07-10T00:43:09.955530",
+      "dna_hash": "a95b0bc41ae4c08e",
+      "generation": 2,
+      "mutation_count": 164,
+      "rarity_score": 66.66666666666666,
+      "traits": {
+        "body_color": "crystal",
+        "face_expression": "divine",
+        "accessory": "horns",
+        "pattern": "cosmic_dust",
+        "background": "heaven",
+        "special": "transcendent"
+      },
+      "story": "# \ud83c\udf0c Cosmic Transformation Unlocked!\n\nYour pup was just sniffing around the backyard when \u2014 *whoosh!* \u2014 their spots and swirls dissolved into shimmering **cosmic dust**, turning every wag of their tail into a trail of stardust across the universe! Now when they shake off after a bath, tiny galaxies go flying across the living room ceiling. \u2728\ud83d\udc3e\n\n> **Pattern updated:** `void` \u2192 `cosmic_dust` \ud83c\udf20"
     }
   ]
 }
