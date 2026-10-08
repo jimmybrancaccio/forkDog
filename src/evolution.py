@@ -36,7 +36,7 @@ class ClaudeProvider(AIProvider):
     def __init__(self, api_key: str):
         from anthropic import Anthropic
         self.client = Anthropic(api_key=api_key)
-        self.model = "claude-sonnet-4-6"
+        self.model = "claude-sonnet-5-5"
 
     def generate_response(self, prompt: str, max_tokens: int = 1024) -> str:
         response = self.client.messages.create(
