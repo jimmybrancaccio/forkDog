@@ -1,8 +1,8 @@
 {
   "generation": 2,
   "parent_id": "f6b7a3bb6f32f09f",
-  "dna_hash": "a95b0bc41ae4c08e",
-  "mutation_count": 254,
+  "dna_hash": "259efc854ff33820",
+  "mutation_count": 255,
   "birth_timestamp": 719627,
   "traits": {
     "body_color": {
@@ -16,9 +16,9 @@
       "gene_sequence": "d0bb2449"
     },
     "accessory": {
-      "value": "horns",
+      "value": "halo",
       "rarity": "rare",
-      "gene_sequence": "f9a6847e"
+      "gene_sequence": "8e822e38"
     },
     "pattern": {
       "value": "cosmic_dust",
