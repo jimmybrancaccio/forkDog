@@ -62,7 +62,7 @@
 <ellipse cx="200" cy="210" rx="20" ry="15" fill="#000"/>
 <ellipse cx="195" cy="205" rx="5" ry="3" fill="#FFF" opacity="0.5"/>
 <path d="M185 230 Q200 245 215 230" stroke="#000" stroke-width="3" fill="none"/>
-<ellipse cx="200" cy="50" rx="55" ry="12" fill="none" stroke="#FFD700" stroke-width="6" opacity="0.85" filter="url(#glow)"/>
+<path d="M100 200 Q50 120 20 220 Q60 210 100 230" fill="#E6E6FA" opacity="0.8"/><path d="M300 200 Q350 120 380 220 Q340 210 300 230" fill="#E6E6FA" opacity="0.8"/>
 <circle cx="200" cy="200" r="145" fill="none" stroke="#FFD700" stroke-width="4" opacity="0.4" filter="url(#glow)"/>
 <g transform="translate(325, 15)">
             <rect width="65" height="22" rx="4" fill="#9370DB" opacity="0.9"/>
