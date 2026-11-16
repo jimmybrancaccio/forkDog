@@ -5999,6 +5999,22 @@
         "special": "transcendent"
       },
       "story": "\ud83d\udc3e **EVOLUTION ALERT!** \ud83d\udc3e\n\nYour pup **Biscuit** was glowing happily in a shimmering **aurora** coat, but after a big nap and one *very* suspicious sneeze, the ribbons of green and violet light swirled away! Now Biscuit sparkles with a brand-new **cosmic_dust** pattern, and every wag leaves a trail of tiny twinkling stars. \u2728\ud83d\udc15\n\n*Biscuit's Cuteness: +50 | Zoomies: MAX | Snack Requests: Still Infinite*"
+    },
+    {
+      "timestamp": "2026-11-16T00:25:47.350186",
+      "dna_hash": "39c86d3176ed9cc4",
+      "generation": 2,
+      "mutation_count": 293,
+      "rarity_score": 66.66666666666666,
+      "traits": {
+        "body_color": "crystal",
+        "face_expression": "divine",
+        "accessory": "wings",
+        "pattern": "aurora",
+        "background": "heaven",
+        "special": "transcendent"
+      },
+      "story": "Your dog evolved! Changes: pattern: cosmic_dust \u2192 aurora"
     }
   ]
 }
