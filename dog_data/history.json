@@ -6031,6 +6031,22 @@
         "special": "transcendent"
       },
       "story": "\ud83d\udc3e **EVOLUTION ALERT!** \ud83d\udc3e\n\nYour pup **Biscuit** was happily chasing his tail when the shimmering **aurora** pattern on his fur began to fade, swirling away like ribbons of northern lights! In its place, a sparkling **cosmic_dust** pattern burst across his coat, dotting him with tiny galaxies that twinkle every time he wags his tail. \u2728\n\n*Biscuit has evolved into* **Stardust Biscuit!** *He's now 100% more zoomy and leaves a trail of glitter wherever he naps.* \ud83c\udf0c\ud83d\udc36"
+    },
+    {
+      "timestamp": "2026-11-18T00:20:58.816487",
+      "dna_hash": "39c86d3176ed9cc4",
+      "generation": 2,
+      "mutation_count": 295,
+      "rarity_score": 66.66666666666666,
+      "traits": {
+        "body_color": "crystal",
+        "face_expression": "divine",
+        "accessory": "wings",
+        "pattern": "aurora",
+        "background": "heaven",
+        "special": "transcendent"
+      },
+      "story": "Your dog evolved! Changes: pattern: cosmic_dust \u2192 aurora"
     }
   ]
 }
